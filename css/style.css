@@ -404,6 +404,7 @@ header {
 
 /*features-demo*/
 
+
 /*#features-demo {
     background-image: url(../img/girl_on_phone_with_coffee.jpg);
     background-size: cover;
@@ -417,24 +418,28 @@ header {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .container-features-2 {
     background-image: url(../img/bank.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .container-features-3 {
     background-image: url(../img/shopping%201.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .container-features-4 {
     background-image: url(../img/office.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .container-features-5 {
     background-image: url(../img/shopping-in-store.jpg);
     background-size: cover;
@@ -442,24 +447,26 @@ header {
     background-repeat: no-repeat;
 }
 
-.owl-carousel .owl-item img{
+.owl-carousel .owl-item img {
     height: 705px;
     width: auto;
 }
 
 .features-bot {
-    
     height: 705px;
     width: auto;
 }
-.right{
+
+.right {
     float: right;
 }
-.left{
+
+.left {
     float: left;
 }
-.center{
-   margin: 0 auto;
+
+.center {
+    margin: 0 auto;
 }
 
 
@@ -683,6 +690,22 @@ textarea::placeholder {
     outline: none;
 }
 
+.form-messages {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+.success {
+    background-color: rgba(39, 174, 96, 0.7);
+}
+
+.error {
+    background-color: rgba(231, 76, 60, 0.7);
+}
+
 
 /*footer*/
 
@@ -751,7 +774,6 @@ textarea::placeholder {
     .row {
         padding: 0 2%;
     }
-
     .benefit span {
         margin: 15px 0 70px 0;
     }
@@ -804,8 +826,7 @@ textarea::placeholder {
     .features-box:last-child {
         margin-top: 30px;
     }
-    
-        .features-box {
+    .features-box {
         padding-left: 0;
     }
     .features-box ul {
@@ -823,9 +844,6 @@ textarea::placeholder {
     .features-box p {
         width: 100%;
     }
-    
-    
-    
     .features-bot {
         width: 100%
     }
@@ -855,7 +873,6 @@ textarea::placeholder {
         text-align: justify;
         margin-left: 40px;
     }
-    
     .tech-detail span {
         margin-bottom: 0;
     }
@@ -889,10 +906,9 @@ textarea::placeholder {
     .hero-text-box {
         text-align: center;
     }
-    #home-slider .owl-dots{
+    #home-slider .owl-dots {
         text-align: center;
     }
-    
     p,
     h3 {
         font-size: 16px;
@@ -902,24 +918,24 @@ textarea::placeholder {
         height: 500px;
         display: flex;
     }
-    .phone-wrap{
+    .phone-wrap {
         left: 0;
         height: 500px;
         width: 300px;
     }
-    .flex-box1{
-      width: auto;
+    .flex-box1 {
+        width: auto;
         order: -1;
         flex-grow: 1;
     }
-    .flex-box2{
+    .flex-box2 {
         width: auto;
         flex-grow: 1;
     }
     .app-screen {
         width: 300px;
     }
-    .video-wrap{
+    .video-wrap {
         top: 69px;
         right: 60px;
         width: 190px;
@@ -934,19 +950,13 @@ textarea::placeholder {
         text-align: center;
         padding-right: 0;
     }
-    
-
-   
     .works-step {
         width: 80%;
         margin: 0 auto;
     }
     .works-step i {
         margin-bottom: 43px;
-    
     }
-    
-    
     .features-bot {
         width: 70%;
     }
@@ -963,22 +973,20 @@ textarea::placeholder {
         margin: 0 auto;
     }
     .benefit p,
-    .tech-detail p{
+    .tech-detail p {
         width: 70%;
         text-align: center;
         margin-right: auto;
         margin-left: auto;
     }
-    
     .span-1-of-2:last-child {
         margin-left: 0;
     }
-    
     #about-company h2,
-    #about-company h3{
+    #about-company h3 {
         text-align: center;
     }
-    #about-company .content-title-underline{
+    #about-company .content-title-underline {
         margin-left: auto;
     }
     .media-box-content {
