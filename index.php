@@ -394,7 +394,7 @@
                             <h5>Contacts</h5>
 
                             <address>
-                                <p>221 Yonge Street, Suite 582<br> Toronto, On M2R5H2<br></p> 
+                                <p>185 Spadina Ave<br> Toronto, On M5T 2C6<br></p> 
                             </address>
 
                             <p>866-341-5575<br> 647-749-9010 <br> 647-792-7038 (fax)<br>info@deeppixel.ai </p>
