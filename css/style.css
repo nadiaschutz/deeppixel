@@ -690,22 +690,6 @@ textarea::placeholder {
     outline: none;
 }
 
-.form-messages {
-    width: 70%;
-    margin: 0 auto;
-    padding: 10px;
-    border-radius: 3px;
-    margin-bottom: 30px;
-}
-
-.success {
-    background-color: rgba(39, 174, 96, 0.7);
-}
-
-.error {
-    background-color: rgba(231, 76, 60, 0.7);
-}
-
 
 /*footer*/
 
@@ -799,7 +783,7 @@ textarea::placeholder {
     }
     h1 {
         font-size: 40px;
-        letter-spacing: 1.5x;
+        letter-spacing: 1.5px;
         line-height: 60px;
     }
     h4 {
@@ -1039,6 +1023,9 @@ textarea::placeholder {
 }
 
 @media only screen and (max-width: 480px) {
+    .hero-text-box {
+        padding-top: 100px;
+    }
     .contact-box {
         margin-bottom: 50px;
     }
@@ -1048,6 +1035,16 @@ textarea::placeholder {
     .partners-box li:nth-child(2) {
         -webkit-transform: scale(0.7, 0.7);
         transform: scale(0.7, 0.7);
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .hero-text-box p {
+        font-size: 12px;
+        line-height: 18px;
+        padding-bottom: 0;
+        margin-bottom: 0;
     }
     /*.partners-box:nth-child(2) {
         width: auto;
