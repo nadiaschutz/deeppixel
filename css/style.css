@@ -293,6 +293,7 @@ header {
 }
 
 .hero-text-box {
+    padding-top: 50px;
     position: absolute;
     width: 1140px;
     top: 50%;
@@ -300,6 +301,7 @@ header {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
 
 .hero-text-box p {
     padding-bottom: 10px;
@@ -1018,8 +1020,14 @@ textarea::placeholder {
 }
 
 @media only screen and (max-width: 480px) {
-    .hero-text-box {
-        padding-top: 20px;
+    body {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 160%;
+    }
+    h2 {
+        font-size: 140%;
     }
     .contact-box {
         margin-bottom: 50px;
