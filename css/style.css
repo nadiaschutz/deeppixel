@@ -28,11 +28,12 @@ font-family: 'Roboto Condensed', sans-serif;
     box-sizing: border-box;
 }
 
-html {
+html, body {
     background-color: #fff;
     font-size: 20px;
-    font-weight: 300;
-    text-rendering: geometricPrecision;
+    font-weight: 100;
+    text-rendering: optimizeLegibility;
+    line-height: 1.5;
 }
 
 .row {
@@ -49,7 +50,7 @@ html {
 }
 
 h1 {
-    font-size: 55px;
+    font-size: 240%;
     font-weight: 700;
     text-transform: uppercase;
     font-family: 'Roboto Condensed', sans-serif;
@@ -57,11 +58,10 @@ h1 {
     letter-spacing: 1px;
     word-spacing: 4px;
     letter-spacing: 3px;
-    line-height: 75px;
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 180%;
     font-weight: 700;
     text-transform: uppercase;
     font-family: 'Roboto Condensed', sans-serif;
@@ -72,7 +72,7 @@ h2 {
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 110%;
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;
     color: #24201F;
@@ -83,7 +83,7 @@ h3 {
 }
 
 h4 {
-    font-size: 16px;
+    font-size: 100%;
     font-weight: 300;
     font-family: 'Roboto Condensed', sans-serif;
     color: #e74c3c;
@@ -93,13 +93,12 @@ h4 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 100%;
     font-weight: 300;
     font-family: 'Open Sans', sans-serif;
     color: #24201F;
     font-style: italic;
     letter-spacing: 1px;
-    line-height: 30px;
     margin-bottom: 30px;
 }
 
@@ -743,14 +742,7 @@ textarea::placeholder {
 /*responsive*/
 
 @media only screen and (max-width: 1200px) {
-    p,
-    h3 {
-        font-size: 18px;
-        line-height: 27px;
-    }
-    h2 {
-        font-size: 32px;
-    }
+    
     .hero-text-box {
         width: 100%;
         padding: 0 2%;
@@ -773,6 +765,10 @@ textarea::placeholder {
 }
 
 @media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+    
     .logo {
         height: 25px;
         margin-top: 15px;
@@ -781,14 +777,8 @@ textarea::placeholder {
         margin-left: 10px;
         font-size: 14px;
     }
-    h1 {
-        font-size: 40px;
-        letter-spacing: 1.5px;
-        line-height: 60px;
-    }
-    h4 {
-        font-size: 13px;
-    }
+    
+    
     .app-screen {
         display: block;
         position: absolute;
@@ -884,6 +874,15 @@ textarea::placeholder {
 }
 
 @media only screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 180%;
+    }
+    h2 {
+        font-size: 150%;
+    }
     nav li a {
         display: none;
     }
@@ -893,11 +892,7 @@ textarea::placeholder {
     #home-slider .owl-dots {
         text-align: center;
     }
-    p,
-    h3 {
-        font-size: 16px;
-        line-height: 24px;
-    }
+    
     .phone-wrap-box {
         height: 500px;
         display: flex;
@@ -1024,7 +1019,7 @@ textarea::placeholder {
 
 @media only screen and (max-width: 480px) {
     .hero-text-box {
-        padding-top: 100px;
+        padding-top: 20px;
     }
     .contact-box {
         margin-bottom: 50px;
@@ -1036,10 +1031,7 @@ textarea::placeholder {
         -webkit-transform: scale(0.7, 0.7);
         transform: scale(0.7, 0.7);
     }
-    h1 {
-        font-size: 30px;
-        line-height: 45px;
-    }
+    
     .hero-text-box p {
         font-size: 12px;
         line-height: 18px;
