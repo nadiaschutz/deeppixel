@@ -1068,6 +1068,9 @@ textarea::placeholder {
     }
 }
 
+
+/*mobile, ipad*/
+
 @media only screen and (max-width: 767px) {
     body {
         font-size: 16px;
@@ -1092,7 +1095,7 @@ textarea::placeholder {
         display: flex;
     }
     .phone-wrap {
-        left: 0;
+        left: 30px;
         height: 500px;
         width: 300px;
     }
