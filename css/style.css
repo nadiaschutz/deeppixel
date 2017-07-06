@@ -1357,3 +1357,27 @@ textarea::placeholder {
         height: 50%;
     }*/
 }
+
+@media only screen and (max-width: 370px) {
+    .phone-wrap {
+        width: 261px;
+    }
+    .app-screen {
+        width: 261px;
+    }
+    .video-wrap {
+        top: 60px;
+        right: 52px;
+        width: 166px;
+    }
+    .features-box:last-child {
+        margin-top: 0;
+    }
+    /*company page*/
+    .leadership-company-box:last-child {
+        margin-bottom: 0;
+    }
+    #conect-btn .row {
+        margin-top: 20px;
+    }
+}
