@@ -82,13 +82,13 @@ $(document).ready(function () {
     /* Scroll on buttons */
     $('.smooth-scroll-1').click(function () {
         $('html, body').animate({
-            scrollTop: $('.container-message').offset().top
+            scrollTop: $('#say-hello').offset().top
         }, 1000);
     });
 
     $('.smooth-scroll-2').click(function () {
         $('html, body').animate({
-            scrollTop: $('.container-message').offset().top
+            scrollTop: $('#say-hello').offset().top
         }, 1000);
     });
 
