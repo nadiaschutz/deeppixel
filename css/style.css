@@ -714,12 +714,15 @@ nav ul ul ul {
 .media-box-content {
     border: 1px solid #ecf0f1;
     padding: 20px;
-    width: 80%;
     margin-left: 10%;
 }
 
 .media-box-content a {
     text-decoration: none;
+}
+
+.media-box-content a p {
+    height: 75px;
 }
 
 .media-box-content a p:hover {
@@ -969,6 +972,8 @@ textarea::placeholder {
     }
 }
 
+@media only screen and (max-width: 1147px) {}
+
 @media only screen and (max-width: 1023px) {
     .width-70 {
         width: 100%;
@@ -1066,7 +1071,7 @@ textarea::placeholder {
         padding: 10px;
     }
     .media-box-content a p {
-        width: 100%;
+        width: 80%;
     }
     #footer-menu a {
         font-size: 55%;
@@ -1082,6 +1087,14 @@ textarea::placeholder {
     /*company page*/
     #conect-btn .col:first-child p {
         padding-right: 50px;
+    }
+}
+
+@media only screen and (max-width: 877px) {
+    .media-box {
+        width: 100%;
+        padding-left: 0;
+        margin: 10px auto;
     }
 }
 
